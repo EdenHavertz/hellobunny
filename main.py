@@ -6,7 +6,7 @@ import random
 
 # 2 - Initialize the game
 pygame.init()
-width, height = 640, 480
+width, height = 660, 500
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption('Hello Bunny')
 icon = pygame.image.load('icon.png')
